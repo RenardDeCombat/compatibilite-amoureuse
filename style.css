@@ -1,0 +1,82 @@
+body {
+    background: #614385;
+    background: -webkit-linear-gradient(to right, #516395, #614385);
+    background: linear-gradient(to right, #516395, #614385); 
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    margin-top: 200px;
+    font-size: 100px;
+    color: white;
+    text-shadow: 0 0 7px black;
+}
+
+.result {
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    color: white;
+}
+
+.bouton {
+    width: 300px;
+    height: 50px;
+    border-radius: 20px;
+    text-align: center;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    box-shadow: 0 0 5px black;
+}
+
+.container {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    width: 700px;
+    height: 200px;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.plus {
+    text-align: center;
+    font-size: 50px;
+    display: flex;
+    font-weight: 600;
+    color: white;
+    text-shadow: 0 0 7px black;
+}
+
+.group {
+    display: flex;
+    justify-content: space-between;
+}
+
+#calculer-button {
+    height: 30px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    width: 200px;
+    height: 40px;
+    background-color: rgb(48, 48, 48);
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    box-shadow: 0 0 5px black;
+}
+
+.hidden {
+    display: none;
+}
+input {
+    outline: none;
+}
