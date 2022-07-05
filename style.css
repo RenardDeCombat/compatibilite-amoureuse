@@ -23,6 +23,7 @@ h1 {
 
 .bouton {
     width: 300px;
+    color: white;
     height: 50px;
     background-color: rgb(48, 48, 48);
     border-radius: 20px;
