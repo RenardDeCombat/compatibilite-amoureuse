@@ -1,7 +1,7 @@
 body {
-    background: #614385;
-    background: -webkit-linear-gradient(to right, #516395, #614385);
-    background: linear-gradient(to right, #516395, #614385); 
+    background: #cccccc;
+    background: -webkit-linear-gradient(to right, #cccccc, #9d71d6);
+    background: linear-gradient(to right, #bd5656, #d43838); 
 }
 
 h1 {
@@ -9,8 +9,8 @@ h1 {
     text-align: center;
     margin-top: 200px;
     font-size: 100px;
-    color: white;
-    text-shadow: 0 0 7px black;
+    color: rgb(24, 24, 24);
+    text-shadow: 0 0 3px black;
 }
 
 .result {
@@ -24,6 +24,7 @@ h1 {
 .bouton {
     width: 300px;
     height: 50px;
+    background-color: rgb(48, 48, 48);
     border-radius: 20px;
     text-align: center;
     border: none;
